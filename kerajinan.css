@@ -1,3 +1,39 @@
 body {
-   
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;   
 }
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 860px;
+}
+
+/* Header */
+
+.header {
+    padding-bottom: 8px;
+    padding-bottom: 8px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 63px;
+    padding: 8px 8px;
+}
+
+.menu {
+    margin-left: 40px;
+}
+
+.menu-item {
+    margin-right: 16px;
+    text-decoration: none;
+    color: #595959;
+}
+
+
