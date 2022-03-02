@@ -145,3 +145,24 @@ body {
     color: #e3e3e3;
 }
 
+/* Hubungi Kami */
+
+.contact-us {
+    margin-top: 56px;
+}
+
+.contact-input {
+    display: block;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    width: 400px;
+}
+
+.contact-button {
+    background-color: #77287d;
+    width: 400px;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    display: block;
+}
