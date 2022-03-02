@@ -13,7 +13,7 @@ body {
 
 .header {
     padding-bottom: 8px;
-    padding-bottom: 8px;
+    padding-top: 8px;
 }
 
 .header-container {
@@ -36,4 +36,53 @@ body {
     color: #595959;
 }
 
+.menu-item:hover {
+    color: #77287d;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+/* Banner */
+
+.banner {
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    height: 500px;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.title {
+    font-size: 36px;
+    color: #222222;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-size: 25px;
+    color: #595959;
+    margin-top: 8px;
+}
+
+/* Category */
+
+.category-title {
+    font-size: 25px;
+}
+
+.category-list {
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-item {
+    color: #222222;
+    text-decoration: none;
+}
 
