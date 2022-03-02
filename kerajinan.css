@@ -13,11 +13,6 @@ body {
 
 /* Header */
 
-.header {
-    padding-bottom: 8px;
-    padding-top: 8px;
-}
-
 .header-container {
     display: flex;
     align-items: center;
@@ -66,7 +61,7 @@ body {
 }
 
 .subtitle {
-    font-size: 25px;
+    font-size: 20px;
     color: #595959;
     margin-top: 8px;
 }
@@ -165,4 +160,20 @@ body {
     padding: 8px 16px;
     border: none;
     display: block;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #77287d;
+    color: white;
+    margin-top: 52px;
+    height: 23px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
 }
